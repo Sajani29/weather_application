@@ -48,3 +48,24 @@ navigator.geolocation.getCurrentPosition((position) => {
     console.log(position.coords.longitude);
 });
 console.log();
+
+//Synchronize and Asynchronize Programming
+
+setTimeout(() =>{  
+    console.log("Udenm nagitinw.....")
+    setTimeout(() => {
+        console.log("munasodnwa....");
+        setTimeout(() => {
+            console.log("class ynwa....");
+            setTimeout(() => {
+                console.log("igen gnnw....");
+                setTimeout(() => {
+                    console.log("gdr enw....");
+                    setTimeout(() => {
+                        console.log("knw....");
+                    },3000);
+                },4000);
+            },4000);
+        },4000);
+    },3000);
+ },2000);
